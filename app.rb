@@ -9,5 +9,9 @@ class App < Sinatra::Base
 	get '/info' do
 		"Test"
 	end
+
+	get '/info' do
+		erb :dogs
+	end
 	
 end
